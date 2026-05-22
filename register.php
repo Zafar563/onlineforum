@@ -78,7 +78,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ro'yxatdan o'tish | Antigravity Forum</title>
+    <title>Ro'yxatdan o'tish | StackHub</title>
     <!-- Google Fonts & Bootstrap Icons -->
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
@@ -90,7 +90,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <div class="glass-panel auth-box animate-fade-in">
         <div class="auth-logo">
             <a href="index.php" class="navbar-brand" style="font-size: 2.2rem; justify-content: center; display: inline-flex;">
-                <i class="bi bi-chat-square-text-fill"></i> ANTIGRAVITY
+                <i class="bi bi-layers-fill"></i> StackHub
             </a>
         </div>
         

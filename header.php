@@ -8,10 +8,10 @@ $searchVal = isset($_GET['search']) ? trim($_GET['search']) : '';
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><?php echo isset($pageTitle) ? esc($pageTitle) . " | Antigravity Forum" : "Antigravity Forum - Fikrlar va Tajribalar Burchagi"; ?></title>
+    <title><?php echo isset($pageTitle) ? esc($pageTitle) . " | StackHub" : "StackHub - Texnologik Hamjamiyat va Muloqot Markazi"; ?></title>
     
     <!-- Meta Tags for SEO -->
-    <meta name="description" content="Antigravity Forum - Dasturlash, Sun'iy Intellekt, Kiberxavfsizlik va zamonaviy texnologiyalar haqida do'stona va professional fikr almashish maydoni.">
+    <meta name="description" content="StackHub - Dasturlash, Sun'iy Intellekt, Kiberxavfsizlik va zamonaviy texnologiyalar haqida do'stona va professional fikr almashish maydoni.">
     <meta name="keywords" content="forum, uzbek forum, dasturlash, kiberxavfsizlik, sun'iy intellekt, ui/ux dizayn, php, mysql">
     
     <!-- Google Fonts & Bootstrap Icons -->
@@ -31,7 +31,7 @@ $searchVal = isset($_GET['search']) ? trim($_GET['search']) : '';
     <div class="navbar-container">
         <!-- Logo -->
         <a href="index.php" class="navbar-brand" id="navLogo">
-            <i class="bi bi-chat-square-text-fill"></i> ANTIGRAVITY
+            <i class="bi bi-layers-fill"></i> StackHub
         </a>
         
         <!-- Search bar -->

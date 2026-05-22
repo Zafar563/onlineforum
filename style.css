@@ -324,6 +324,16 @@ a:hover {
     display: none;
     animation: fadeIn 0.2s ease;
 }
+/* Bridge the hover gap between nav-user and nav-dropdown */
+.nav-dropdown::before {
+    content: '';
+    position: absolute;
+    top: -15px;
+    left: 0;
+    right: 0;
+    height: 15px;
+    background: transparent;
+}
 .nav-user:hover .nav-dropdown {
     display: block;
 }
